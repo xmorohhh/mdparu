@@ -1,25 +1,25 @@
 {
-  "name": "x-asena",
+  "name": "aswinmd",
   "version": "2.0.0",
-  "description": "WhatsAsena project - a Whatsapp userbot helping to improve your Whatsapp experience.",
+  "description": "aswinmd project - a Whatsapp userbot helping to improve your Whatsapp experience.",
   "main": "./index.js",
   "scripts": {
     "start": "node index.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Neeraj-x0/x-asena.git"
+    "url": "git+https://github.com/xmorohhh/Aswin-mdtest.git"
   },
   "keywords": [
     "whatsapp"
   ],
-  "author": "X-Electra",
-  "developer": "X-Electra / Neeraj-x0",
+  "author": "ASWINMD",
+  "developer": "ASWIN SPARKY ",
   "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/Neeraj-x0/x-asena/issues"
+    "url": "https://github.com/xmorohhh/Aswin-mdtest/issues"
   },
-  "homepage": "https://github.com/Neeraj-x0/x-asena#readme",
+  "homepage": "https://github.com/xmorohhh/Aswin-mdtest#readme",
   "dependencies": {
     "@adiwajshing/baileys": "^4.4.0",
     "@adiwajshing/keyed-db": "^0.2.4",
