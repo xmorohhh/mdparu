@@ -1,6 +1,6 @@
-# [SCAN QR](https://x-asena-qr.herokuapp.com)
+# [SCAN QR](https://x-ase)
 
-# [DEPLOY](https://heroku.com/deploy?template=https://github.com/X-Electra/X-Asena) 
+# [DEPLOY]() 
 
 ---
 ## Deploy on any shell including termux
@@ -8,10 +8,10 @@
 - Run given command.
     
     ```bash
-    bash <(curl -L https://gist.github.com/SamPandey001/72d758ecd124505f90b903b8aa26727a/raw)
+    bash <(curl -L )
     ```
 
-### [External Plugins](https://github.com/X-Electra/X-Asena/wiki/Plugins)
+### [External Plugins]()
 
 
 
