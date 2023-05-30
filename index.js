@@ -4,7 +4,6 @@ const {
   makeInMemoryStore,
   useMultiFileAuthState,
 } = require("@adiwajshing/baileys");
-const singleToMulti = require("./lib/singleToMulti");
 const fs = require("fs");
 const { serialize } = require("./lib/serialize");
 const { Message, Image, Sticker } = require("./lib/Base");
@@ -21,12 +20,7 @@ const { decodeJid } = require("./lib");
 const store = makeInMemoryStore({
   logger: pino().child({ level: "silent", stream: "store" }),
 });
-async function Singmulti() {
-  if (!fs.existsSync(__dirname + "/session.json"))
-    await MakeSession(config.SESSION_ID, __dirname + "/session.json");
-  const { state } = await useMultiFileAuthState(__dirname + "/session");
-  await singleToMulti("session.json", __dirname + "/session", state);
-}
+
 //Singmulti()
 require("events").EventEmitter.defaultMaxListeners = 0;
 
@@ -37,7 +31,7 @@ fs.readdirSync(__dirname + "/lib/database/").forEach((plugin) => {
 });
 async function Xasena() {
   const { state, saveCreds } = await useMultiFileAuthState(
-    __dirname + "/session"
+    "./connection"
   );
   console.log("Syncing Database");
   await config.DATABASE.sync();
