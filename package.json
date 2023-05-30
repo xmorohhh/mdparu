@@ -11,18 +11,7 @@
     "url": "git+https://github.com/Neeraj-x0/x-asena.git"
   },
   "keywords": [
-    "whatsapp",
-    "bot",
-    "ai",
-    "asena",
-    "api",
-    "unlimited",
-    "asenadev",
-    "machine learning",
-    "automatic",
-    "whatsapp web",
-    "whatsapp api",
-    "WhatsAsena"
+    "whatsapp"
   ],
   "author": "X-Electra",
   "developer": "X-Electra / Neeraj-x0",
@@ -61,8 +50,6 @@
     "simple-git": "^3.14.1",
     "sqlite3": "^5.1.1",
     "supervisor": "^0.12.0",
-    "x-asena": "^1.0.1",
-    "yt-search": "^2.10.3",
-    "ytdl-core": "latest"
+    "x-asena": "^1.0.1"
   }
 }
