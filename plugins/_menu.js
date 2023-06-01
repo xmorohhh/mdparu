@@ -1,9 +1,3 @@
-/* Copyright (C) 2022 X-Electra.
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-X-Asena - X-Electra
-*/
-
 const events = require("../lib/event");
 const { command, isPrivate, tiny, serif_B, clockString } = require("../lib");
 const { OWNER_NAME, BOT_NAME } = require("../config");
@@ -37,6 +31,7 @@ Description : ${i.desc}\`\`\``
 ┃ ⎆  *TIME* : ${time}
 ┃ ⎆  *COMMANDS* : ${events.commands.length} 
 ┃ ⎆  *UPTIME* : ${clockString(uptime())} 
+┃ ⎆  *DEVELOPER* :  917012984396
 ╰━━━━━━━━━━━━━━━
 ╭╼╾╼╾╼╾╼╾╼╾╼╾╼╾╼\n╽`;
       let cmnd = [];
@@ -77,32 +72,17 @@ Description : ${i.desc}\`\`\``
       });
 
       menu += ` ╰━━━━━━━━━━━──⊷\n`;
-      menu += `_🔖Send ${prefix}menu <command name> to get detailed information of specific command._\n*📍Eg:* _${prefix}menu plugin_`;
+      menu += `𝗦𝗣𝗔𝗥𝗞𝗬 𝗠𝗢𝗗𝗦 😌👑`;
       return await message.client.sendMessage(message.jid, {
-        image: { url: `https://wallpapercave.com/wp/wp3891779.jpg` },
+        image: { url: `https://i.imgur.com/HkSsfme.jpeg` },
         caption: menu,
         footer: tiny(
-          `X-asena Public Bot\nVersion : ${require("../package.json").version}`
+          `Aswin-MD\nVersion : ${require("../package.json").version}`
         ),
-        buttons: [
-          {
-            buttonId: `${prefix}ping`,
-            buttonText: { displayText: serif_B("PING 🎈") },
-          },
-          {
-            buttonId: `${prefix}list`,
-            buttonText: { displayText: serif_B("LIST 🎈 ") },
-          },
-        ],
       });
     }
   }
 );
-/* Copyright (C) 2022 X-Electra.
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-X-Asena - X-Electra
-*/
 
 command(
   {
