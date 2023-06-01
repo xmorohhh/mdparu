@@ -14,7 +14,10 @@ if (fs.existsSync("config.env"))
 const toBool = (x) => x == "true";
 
 DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
-let HANDLER = "false";
+  HANDLERS:
+    process.env.HANDLER === "false" || process.env.HANDLER === "null"
+      ? "^"
+      : "^[!]",
 module.exports = {
   ANTILINK: toBool(process.env.ANTI_LINK) || false,
   LOGS: toBool(process.env.LOGS) || true,
