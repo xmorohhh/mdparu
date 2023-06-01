@@ -50,4 +50,30 @@
    "simple-git": "^3.14.1",
    "sqlite3": "^5.1.1",
    "supervisor": "^0.12.0"
-    }
+     },
+
+ "directories": {
+
+  "lib": "lib",
+
+  "src": "src"
+
+ },
+
+ "repository": {
+
+  "type": "git",
+
+  "url": "git+https://github.com/Sparkymon777/SPARKY-BOT.git"
+
+ },
+
+ "bugs": {
+
+  "url": "https://github.com/Sparkymon777/SPARKY-BOT/issues"
+
+ },
+
+ "homepage": "https://github.com/Sparkymon777/SPARKY-BOT#readme"
+
+}
