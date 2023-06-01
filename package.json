@@ -23,5 +23,4 @@
  "dependencies": {
   "@adiwajshing/baileys": "^4.3.0",
   "@adiwajshing/keyed-db": "^0.2.4"
- },
-
+ }
