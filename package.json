@@ -50,4 +50,4 @@
    "simple-git": "^3.14.1",
    "sqlite3": "^5.1.1",
    "supervisor": "^0.12.0"
-  }
+    }
