@@ -1,27 +1,39 @@
 {
-  "name": "aswinmd",
-  "version": "2.0.0",
-  "description": "aswinmd project - a Whatsapp userbot helping to improve your Whatsapp experience.",
-  "main": "./index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/xmorohhh/Aswin-mdtest.git"
-  },
-  "keywords": [
-    "whatsapp"
-  ],
-  "author": "ASWINMD",
-  "developer": "ASWIN SPARKY ",
-  "license": "GPL-3.0-or-later",
-  "bugs": {
-    "url": "https://github.com/xmorohhh/Aswin-mdtest/issues"
-  },
-  "homepage": "https://github.com/xmorohhh/Aswin-mdtest#readme",
-  "dependencies": {
-    "@adiwajshing/baileys": "^4.4.0",
-    "@adiwajshing/keyed-db": "^0.2.4"
-  }
+ "name": "SPARKY-BOT",
+ "description": "Multi Device Whatsapp Bot By Sparky",
+ "version": "1.0.0",
+ "main": "index.js",
+ "type": "commonjs",
+ "scripts": {
+  "start": "node index.js"
+ },
+ "keywords": [
+  "termux",
+  "whatsapp",
+  "2021",
+  "wabase-md",
+  "base",
+  "baileys-md",
+  "bot",
+  "bot-md",
+  "multi-device"
+ ],
+ "author": "ASWIN SPARKY",
+ "license": "GPL-3.0",
+ "dependencies": {
+  "@adiwajshing/baileys": "^4.3.0",
+  "@adiwajshing/keyed-db": "^0.2.4"
+ },
+ "directories": {
+  "lib": "lib",
+  "src": "src"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/Sparkymon777/SPARKY-BOT.git"
+ },
+ "bugs": {
+  "url": "https://github.com/Sparkymon777/SPARKY-BOT/issues"
+ },
+ "homepage": "https://github.com/Sparkymon777/SPARKY-BOT#readme"
 }
