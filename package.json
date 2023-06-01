@@ -24,16 +24,4 @@
   "@adiwajshing/baileys": "^4.3.0",
   "@adiwajshing/keyed-db": "^0.2.4"
  },
- "directories": {
-  "lib": "lib",
-  "src": "src"
- },
- "repository": {
-  "type": "git",
-  "url": "git+https://github.com/Sparkymon777/SPARKY-BOT.git"
- },
- "bugs": {
-  "url": "https://github.com/Sparkymon777/SPARKY-BOT/issues"
- },
- "homepage": "https://github.com/Sparkymon777/SPARKY-BOT#readme"
-}
+
