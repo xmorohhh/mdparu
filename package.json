@@ -22,7 +22,6 @@
   "homepage": "https://github.com/xmorohhh/Aswin-mdtest#readme",
   "dependencies": {
     "@adiwajshing/baileys": "^4.4.0",
-    "@adiwajshing/keyed-db": "^0.2.4",
-    "awesome-phonenumber": "^3.4.0"
+    "@adiwajshing/keyed-db": "^0.2.4"
   }
 }
