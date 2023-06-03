@@ -1,14 +1,8 @@
 const { command } = require("../lib");
 
-/* Copyright (C) 2022 X-Electra.
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-X-Asena - X-Electra
-*/
-
 command(
   {
-    pattern: "setpp ",
+    pattern: "pp",
     fromMe: true,
     desc: "Set profile picture",
     type: "user",
@@ -21,12 +15,6 @@ command(
     return await message.reply("_Profile Picture Updated_");
   }
 );
-
-/* Copyright (C) 2022 X-Electra.
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-X-Asena - X-Electra
-*/
 
 command(
   {
@@ -42,11 +30,6 @@ command(
   }
 );
 
-/* Copyright (C) 2022 X-Electra.
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-X-Asena - X-Electra
-*/
 
 command(
   {
@@ -70,12 +53,6 @@ command(
   }
 );
 
-/* Copyright (C) 2022 X-Electra.
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-X-Asena - X-Electra
-*/
-
 command(
   {
     pattern: "unblock",
@@ -98,12 +75,6 @@ command(
   }
 );
 
-/* Copyright (C) 2022 X-Electra.
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-X-Asena - X-Electra
-*/
-
 command(
   {
     pattern: "jid",
@@ -117,12 +88,6 @@ command(
     );
   }
 );
-
-/* Copyright (C) 2022 X-Electra.
-Licensed under the  GPL-3.0 License;
-you may not use this file except in compliance with the License.
-X-Asena - X-Electra
-*/
 
 command(
   {
