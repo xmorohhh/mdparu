@@ -1,6 +1,6 @@
 {
-  "name": "SPARKY-BOT",
-  "description": "Multi Device Whatsapp Bot By Sparky",
+  "name": "Aswin-MD",
+  "description": "Multi Device Whatsapp Bot By Aswin Sparky",
   "version": "2.0.0",
   "main": "index.js",
   "type": "commonjs",
@@ -39,6 +39,7 @@
    "node-cron": "^3.0.2",
    "node-webpmux": "^3.1.0",
    "pastebin-js": "^1.0.6",
+   "x-asena": "^1.0.1",
    "pg": "^8.8.0",
    "pino": "^8.1.0",
    "pm2": "^5.2.0",
@@ -51,29 +52,16 @@
    "sqlite3": "^5.1.1",
    "supervisor": "^0.12.0"
      },
-
  "directories": {
-
   "lib": "lib",
-
   "src": "src"
-
  },
-
  "repository": {
-
   "type": "git",
-
-  "url": "git+https://github.com/Sparkymon777/SPARKY-BOT.git"
-
+  "url": "git+https://github.com/Sparkymon777/Aswin-MD.git"
  },
-
  "bugs": {
-
-  "url": "https://github.com/Sparkymon777/SPARKY-BOT/issues"
-
+  "url": "https://github.com/Sparkymon777/Aswin-MD/issues"
  },
-
- "homepage": "https://github.com/Sparkymon777/SPARKY-BOT#readme"
-
+ "homepage": "https://github.com/Sparkymon777/Aswin-MD#readme"
 }
