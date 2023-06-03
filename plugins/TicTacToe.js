@@ -79,9 +79,7 @@ Current turn: @${room.game.currentTurn.split("@")[0]}
 
         return await message.client.sendMessage(message.jid, {
           text: str,
-          buttons: [
-            { buttonId: "give_up", buttonText: { displayText: "Give UP" } },
-          ],
+
           mentions: parseJid(str),
         });
       } else {
