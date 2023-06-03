@@ -100,9 +100,7 @@ async function Xasena() {
         require(__dirname + "/package.json").version
       }\nTotal Plugins : ${events.commands.length}\nWorktype: ${
         config.WORK_TYPE
-      }\nPrefix: ${
-        prefix
-      }\nGit: *https://github.com/Sparkymon777/Aswin-MD*\`\`\``;
+      }\nPrefix: ${prefix}\nGit: *https://github.com/Sparkymon777/Aswin-MD*\`\`\``;
       conn.sendMessage(conn.user.id, { text: str });
 
       try {
