@@ -45,7 +45,7 @@ command(
             try{
                 tname = message.getName(message.reply_message.participant)
             } catch (e) {
-                tname = "X-Asena"
+                tname = "Aswin-MD"
             }
             let body = {
                 type: "quote",
@@ -70,6 +70,6 @@ command(
             };
             let res = await axios.post("https://bot.lyo.su/quote/generate", body);
             let img = Buffer.alloc(res.data.result.image.length, res.data.result.image, "base64");
-            return message.sendMessage(img,{packname:'X-Asena',author:'Quotely'},"sticker")
+            return message.sendMessage(img,{packname:'Aswin-MD,author:'Quotely'},"sticker")
   }
 );
