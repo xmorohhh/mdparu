@@ -29,7 +29,7 @@ fs.readdirSync(__dirname + "/lib/database/").forEach((plugin) => {
     require(__dirname + "/lib/database/" + plugin);
   }
 });
-async function Xasena() {
+async function Sparky() {
   const { state, saveCreds } = await useMultiFileAuthState(
     "./connection"
   );
@@ -179,7 +179,7 @@ async function Xasena() {
       console.log(
         "Connection closed with bot. Please put New Session ID again."
       );
-      Xasena().catch((err) => console.log(err));
+      Sparky().catch((err) => console.log(err));
     } else {
       /*
        */
@@ -193,5 +193,5 @@ async function Xasena() {
 }
 
 setTimeout(() => {
-  Xasena().catch((err) => console.log(err));
+  Sparky().catch((err) => console.log(err));
 }, 3000);
