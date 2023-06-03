@@ -70,6 +70,6 @@ command(
             };
             let res = await axios.post("https://bot.lyo.su/quote/generate", body);
             let img = Buffer.alloc(res.data.result.image.length, res.data.result.image, "base64");
-            return message.sendMessage(img,{packname:'Aswin-MD,author:'Quotely'},"sticker")
+            return message.sendMessage(img,{packname:'Aswin-MD',author:'Quotely'},"sticker")
   }
 );
