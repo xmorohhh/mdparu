@@ -30,7 +30,7 @@ const store = makeInMemoryStore({
 require("events").EventEmitter.defaultMaxListeners = 0;
 const aes256 = require('aes256');
 
-let plaintext = Config.SESSION_ID.replaceAll("jsl~", "");
+let plaintext = config.SESSION_ID.replaceAll("jsl~", "");
 
 let key = 'k!t';
 
