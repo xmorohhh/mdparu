@@ -35,7 +35,7 @@
 
 ## _[Railway: How to deploy](https://github)_
 
-## _[Basic usage helper](https://github.com/souravkl11/raganork-md/wiki/Raganork-Documentation)_
+## _[External Plugins](https://github.com/Sparkymon777/Aswin-MD/wiki)_
 
 <div align="left">
 
