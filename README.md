@@ -1,5 +1,5 @@
-# _Raganork-multi-device_
-## _Multi device whatsapp bot created with [@adiwajshing/baileys](https://github.com/adiwajshing/Baileys)_
+# _Aswin-multi-device_
+## _Multi device whatsapp bot created by [@Aswin Sparky](https://github.com/Sparkymon777)_
   
 <div align="center">
    
@@ -13,7 +13,7 @@
 <a href="https://github.com/sou6av/deploy-raganork/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="Deploy bot" height="112" width="310" /></a>
   <div>
 <br>
-<a href="https://raganork.ml/heroku-deploy" target="blank"><img align="center" src="https://i.imgur.com/6rs61MY.png" alt="Deploy bot" height="112" width="310" /></a>
+<a href="https://raganork.ml/heroku-deploy" target="blank"><img align="center" src="https://railway.app/button.svg" alt="Deploy bot" height="112" width="310" /></a>
   <div>
 <br>
 
