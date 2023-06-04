@@ -8,12 +8,12 @@
 <div>
 <br>
 
-## Deploy to Heroku ↓
+## Deploy to Railway ↓
 
-<a href="https://github.com/sou6av/deploy-raganork/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="Deploy bot" height="112" width="310" /></a>
+<a href="https://github.com/Sparkymon777/Aswin-MD/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="Deploy bot" height="112" width="310" /></a>
   <div>
 <br>
-<a href="https://raganork.ml/heroku-deploy" target="blank"><img align="center" src="https://railway.app/button.svg" alt="Deploy bot" height="112" width="310" /></a>
+<a href="https://railway.app/new" target="blank"><img align="center" src="https://railway.app/button.svg" alt="Deploy bot" height="112" width="310" /></a>
   <div>
 <br>
 
@@ -43,7 +43,7 @@ Now the bot will start working
 
 <div align="center">
 
-## _[Koyeb: How to deploy](https://github.com/souravkl11/raganork-md/wiki/Deploying-with-Koyeb)_
+## _[Railway: How to deploy](https://github)_
 
 ## _[Basic usage helper](https://github.com/souravkl11/raganork-md/wiki/Raganork-Documentation)_
 
