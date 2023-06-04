@@ -76,7 +76,7 @@ async function Sparky() {
   });
   store.bind(conn.ev);
   setInterval(() => {
-    store.writeToFile("./database/store.json");
+    store.writeToFile("./lib/Db/store.json");
   }, 30 * 1000);
 
   conn.ev.on("creds.update", saveCreds);
