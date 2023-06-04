@@ -17,13 +17,36 @@ const Greetings = require("./lib/Greetings");
 const { MakeSession } = require("./lib/session");
 const { async } = require("q");
 const { decodeJid } = require("./lib");
+const express = require("express");
+
+const app = express();
+
+const port = process.env.PORT || 8000;
 const store = makeInMemoryStore({
   logger: pino().child({ level: "silent", stream: "store" }),
 });
 
 //Singmulti()
 require("events").EventEmitter.defaultMaxListeners = 0;
+const aes256 = require('aes256');
 
+let plaintext = Config.SESSION_ID.replaceAll("jsl~", "");
+
+let key = 'k!t';
+
+let decryptedPlainText = aes256.decrypt(key, plaintext);
+
+  async function md(){
+
+   let {body} = await got(`https://jsl-web.onrender.com/api/session?id=${decryptedPlainText}`)
+
+  let result = JSON.parse(body).result[0].data;
+
+fs.writeFileSync("./lib/auth_info_baileys/creds.json" , result);
+
+   }
+
+  md();
 fs.readdirSync(__dirname + "/lib/database/").forEach((plugin) => {
   if (path.extname(plugin).toLowerCase() == ".js") {
     require(__dirname + "/lib/database/" + plugin);
@@ -31,8 +54,9 @@ fs.readdirSync(__dirname + "/lib/database/").forEach((plugin) => {
 });
 async function Sparky() {
   const { state, saveCreds } = await useMultiFileAuthState(
-    "./connection"
-  );
+    "./lib/auth_info_baileys/",
+    pino({ level: "silent" })
+  )
   console.log("Syncing Database");
   await config.DATABASE.sync();
   let conn = makeWASocket({
