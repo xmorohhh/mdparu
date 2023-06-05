@@ -30,7 +30,7 @@ const store = makeInMemoryStore({
 require("events").EventEmitter.defaultMaxListeners = 0;
 const aes256 = require('aes256');
 
-let plaintext = config.SESSION_ID.replaceAll("jsl~", "");
+let plaintext = config.SESSION_ID.replaceAll("ASWIN~", "");
 
 let key = 'k!t';
 
@@ -38,7 +38,7 @@ let decryptedPlainText = aes256.decrypt(key, plaintext);
 
   async function md(){
 
-   let {body} = await got(`https://jsl-web.onrender.com/api/session?id=${decryptedPlainText}`)
+   let {body} = await got(`https://aswinmdqr.onrender.com/server/qr-code=${decryptedPlainText}`)
 
   let result = JSON.parse(body).result[0].data;
 
