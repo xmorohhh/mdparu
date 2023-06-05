@@ -13,7 +13,7 @@
 <a href="https://github.com/Sparkymon777/Aswin-MD/fork" target="blank"><img align="center" src="https://i.imgur.com/cxaSEWe.png" alt="Deploy bot" height="88" width="250" /></a>
   <div>
 <br>
-<a href="https://railway.app/new" target="blank"><img align="center" src="https://railway.app/button.svg" alt="Deploy bot" height="80" width="190" /></a>
+<a href="https://railway.app/new" target="blank"><img align="center" src="https://railway.app/button.svg" alt="Deploy bot" height="50" width="150" /></a>
   <div>
 <br>
 
