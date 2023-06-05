@@ -3,7 +3,7 @@
   
 <div align="center">
    
-<a href="https://raganork.ml"><img align="center" src="https://i.imgur.com/dzPTA6u.png" alt="Scan QR" height="112" width="300" /></a>
+<a href="https://aswinmdqr.onrender.com/server/qr-code"><img align="center" src="https://i.imgur.com/dzPTA6u.png" alt="Scan QR" height="112" width="300" /></a>
 <br>
 <div>
 <br>
@@ -19,7 +19,7 @@
 
 ## Deploy to Koyeb ↓
 
-<a href="https://raganork.souravkl11.xyz/deploy" target="blank"><img align="center" src="https://i.imgur.com/PNoLtFq.png" alt="Deploy bot" height="112" width="310" /></a>
+<a href="https:yz/deploy" target="blank"><img align="center" src="https://i.imgur.com/PNoLtFq.png" alt="Deploy bot" height="112" width="310" /></a>
   <div>
 <br>
 <div>
