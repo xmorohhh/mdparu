@@ -1,1 +1,1 @@
-worker: npm start
+sparky: npm start
