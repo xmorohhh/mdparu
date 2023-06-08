@@ -3,7 +3,6 @@ const git = simpleGit();
 const {command} = require('../lib');
 const {MessageType} = require('@adiwajshing/baileys');
 const Config = require('../config');
-const {fixHerokuAppName} = require('./manage');
 const exec = require('child_process').exec;
 const Heroku = require('heroku-client');
 const { PassThrough } = require('stream');
