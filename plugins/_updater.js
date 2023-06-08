@@ -4,11 +4,8 @@ const {command} = require('../lib');
 const {MessageType} = require('@adiwajshing/baileys');
 const Config = require('../config');
 const exec = require('child_process').exec;
-const Heroku = require('heroku-client');
-const heroku = new Heroku({ token: Config.HEROKU.API_KEY })
 const { skbuffer } = require('raganork-bot');
 var handler = Config.HANDLERS !== 'false'?Config.HANDLERS.split("")[0]:"";
-let isHeroku = Config.HEROKU.API_KEY && Config.HEROKU.APP_NAME
 command({
     pattern: 'update ?(.*)',
     fromMe: true,
