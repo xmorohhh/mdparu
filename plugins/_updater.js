@@ -1,6 +1,6 @@
 const simpleGit = require('simple-git');
 const git = simpleGit();
-const {command} = require('../main');
+const {command} = require('../lib');
 const {update} = require('./misc/koyeb');
 const {MessageType} = require('@adiwajshing/baileys');
 const Config = require('../config');
