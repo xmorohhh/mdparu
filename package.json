@@ -53,8 +53,7 @@
    "sqlite3": "^5.1.1",
    "supervisor": "^0.12.0",
    "express": "latest",
-   "aes256":"1.1.0",
-   "ffmpeg":"latest"
+   "aes256":"1.1.0"
      },
  "directories": {
   "lib": "lib",
